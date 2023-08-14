@@ -1,15 +1,51 @@
+root {
+    --branding-color: #2a738a;
+    --secondary-color: rgb(232,244,248);
+    --heading-font-family: 'Raleway', sans-serif;
+    --default-font-family:'Roboto Mono', monospace;
+}
 
-body{
-    background-color: lightblue;
+
+
+h1, h2, h3,h4,h5,h6{
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+}
+
+
+h1{
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 56px; 
+}
+
+.story{
+    background-color: rgb(232,244,248);
+    text-align: center;
+    padding: 160px 20px;
    
 }
 
-h1{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: xx-large;
-}
-p{
+.story p{
     font-family: 'Roboto Mono', monospace;
-    font-weight: 400; 
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    color: #272142;
+}
+
+.story h2{
+    font-family: var(--default-font-family);
+    font-weight: normal;
+    font-size:26px;
+}
+
+.btn-branding {
+    background: #2a738a;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
