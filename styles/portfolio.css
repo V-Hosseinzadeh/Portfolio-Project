@@ -17,7 +17,20 @@ h1, h2, h3,h4,h5,h6{
 h1{
     font-family: var(--heading-font-family);
     font-weight: bold;
-    font-size: 56px; 
+    font-size: 66px; 
+    line-height: 1.5;
+}
+h2{
+    font-size: 46px;
+}
+p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height:30px;
+}
+.size{
+    font-size: 30px;
+    margin-top:40px;
 }
 
 .story{
@@ -39,6 +52,7 @@ h1{
     font-family: var(--default-font-family);
     font-weight: normal;
     font-size:26px;
+    line-height: 1.5;
 }
 
 .btn-branding {
@@ -48,4 +62,30 @@ h1{
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+.btn-branding-outline{
+    color: #2a738a;
+    border: 1px solid  #2a738a;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+
+}
+
+@media (max-width:900px) {
+    .project-description{
+        padding: 0;
+        text-align: center;
+    }
+}
+@media(max-width:900px) {
+    h1{
+        font-size: 40px;
+        line-height: 2;
+    }
+
+    h2{
+        font-size: 40px;
+    }
 }
