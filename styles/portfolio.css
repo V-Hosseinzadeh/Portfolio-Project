@@ -21,22 +21,32 @@ h1{
     line-height: 1.5;
 }
 h2{
-    font-size: 46px;
+    font-size: 36px;
 }
 p{
     font-weight: normal;
     font-size: 16px;
     line-height:30px;
 }
+
+
+.first{
+margin-top: 180px;
+}
+
+.second{
+    margin-top: 200px;
+}
+
 .size{
-    font-size: 30px;
-    margin-top:40px;
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 .story{
     background-color: rgb(232,244,248);
     text-align: center;
-    padding: 160px 20px;
+    padding: 180px 40px;
    
 }
 
