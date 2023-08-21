@@ -23,6 +23,7 @@ h1{
 h2{
     font-size: 36px;
 }
+
 p{
     font-weight: normal;
     font-size: 16px;
@@ -46,8 +47,7 @@ margin-top: 180px;
 .story{
     background-color: rgb(232,244,248);
     text-align: center;
-    padding: 180px 40px;
-   
+    padding: 160px 20px;
 }
 
 .story p{
@@ -64,6 +64,25 @@ margin-top: 180px;
     font-size:26px;
     line-height: 1.5;
 }
+
+.about-section{
+    padding: 160px 20px;
+}
+
+.about-section h1{
+font-size: 64px;
+line-height: 80px;
+
+}
+.about-section h2{
+    font-size: 18px;
+    font-family:var(--default-font-family);
+
+}
+.about-section-content {
+    margin: 30px;
+  }
+  
 
 .btn-branding {
     background: #2a738a;
@@ -83,19 +102,31 @@ margin-top: 180px;
 
 }
 
-@media (max-width:900px) {
-    .project-description{
-        padding: 0;
-        text-align: center;
-    }
-}
+.project-desciption {
+    padding: 120px 60px;}
+
+
 @media(max-width:900px) {
     h1{
         font-size: 40px;
-        line-height: 2;
+        line-height: 56px;
     }
 
     h2{
         font-size: 40px;
     }
+
+  .story {
+    padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
