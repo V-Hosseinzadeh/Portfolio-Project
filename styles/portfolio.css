@@ -17,7 +17,7 @@ h1, h2, h3,h4,h5,h6{
 h1{
     font-family: var(--heading-font-family);
     font-weight: bold;
-    font-size: 66px; 
+    font-size: 96px; 
     line-height: 1.5;
 }
 h2{
@@ -30,7 +30,10 @@ p{
     line-height:30px;
 }
 
+.top{
+margin-top:10px ;
 
+}
 .first{
 margin-top: 180px;
 }
@@ -61,25 +64,36 @@ margin-top: 180px;
 .story h2{
     font-family: var(--default-font-family);
     font-weight: normal;
-    font-size:26px;
+    font-size:24px;
     line-height: 1.5;
 }
 
-.about-section{
+.content-container{
     padding: 160px 20px;
 }
 
-.about-section h1{
+.content h1{
 font-size: 64px;
 line-height: 80px;
 
 }
-.about-section h2{
+.content h2{
     font-size: 18px;
     font-family:var(--default-font-family);
 
 }
-.about-section-content {
+.content h3{
+font-size: 24px;
+font-family:var(--default-font-family);
+line-height: 1.5;
+
+}
+
+.content p{
+font-size: 14px;
+}
+
+.content {
     margin: 30px;
   }
   
@@ -120,7 +134,7 @@ line-height: 80px;
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
