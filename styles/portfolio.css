@@ -120,6 +120,44 @@ font-size: 14px;
     padding: 120px 60px;}
 
 
+    .logo{
+max-height:40px;
+
+    }
+
+    nav{
+padding:20px ;
+
+    }
+    nav ul{
+padding: 0;
+margin: 0;
+
+    }
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family:'Raleway', sans-serif;
+
+}
+
+nav a{
+text-decoration: none;
+color: #272142;
+transition: all 100ms ease-in-out;
+
+}
+
+nav a:hover,
+nav li.active a{
+    color: #2a738a
+}
+
+
 @media(max-width:900px) {
     h1{
         font-size: 40px;
