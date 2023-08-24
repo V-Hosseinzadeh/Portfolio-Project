@@ -17,7 +17,7 @@ h1, h2, h3,h4,h5,h6{
 h1{
     font-family: var(--heading-font-family);
     font-weight: bold;
-    font-size: 96px; 
+    font-size: 80px; 
     line-height: 1.5;
 }
 h2{
@@ -28,6 +28,10 @@ p{
     font-weight: normal;
     font-size: 16px;
     line-height:30px;
+}
+
+h4{
+    font-size: 36px;
 }
 
 .top{
@@ -43,8 +47,8 @@ margin-top: 180px;
 }
 
 .size{
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 30px;
+    margin-top: 50px;
 }
 
 .story{
@@ -157,6 +161,48 @@ nav li.active a{
     color: #2a738a
 }
 
+footer{
+margin: 60px 0;
+
+}
+    
+
+footer  .contact-box{
+background-color: rgb(232,244,248);
+padding: 30px 120px;
+border-radius: 10px;
+
+}
+footer .contact-box p{
+margin: 0%;
+}
+
+a.final-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Raleway', sans-serif;
+}
+
+a.final-link:hover {
+    color:#2a738a ;
+}
+ .social-media a {
+    margin: 0 25px;
+    color: #2a738a;
+    background-color: rgb(232,244,248);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+  }
+
+  
+  footer .social-media a:hover {
+    color: white;
+    background: #2a738a;
+  }
 
 @media(max-width:900px) {
     h1{
@@ -181,4 +227,9 @@ nav li.active a{
     padding: 0;
     text-align: center;
   }
+
+  footer  .contact-box{
+    padding: 30px;
+    
+}
 }
